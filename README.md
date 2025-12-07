@@ -3,6 +3,8 @@
 一个基于 Ollama 与 Streamlit 的本地智能聊天机器人，支持两种实现入口：
 - `chat_main.py` + `chat_utils.py`：使用 Python `ollama` 包简单对话
 - `基于ollama+streamlit搭建的灵枢智聊机器人.py`：使用 `requests` 调用 Ollama Chat API，支持流式输出与自定义样式
+<img width="584" height="442" alt="image" src="https://github.com/user-attachments/assets/81e3d84c-c415-4386-a1d0-8ddedb2f4910" />
+
 
 ---
 
@@ -19,7 +21,7 @@
 
 ## 目录结构
 ```
-day_08/
+Chatbot/
 ├── chat_main.py                         # 简洁版 UI 入口（SDK）
 ├── chat_utils.py                        # Ollama 回复封装（SDK）
 ├── 基于ollama+streamlit搭建的灵枢智聊机器人.py   # 美化版 UI 入口（HTTP 流式）
@@ -79,3 +81,4 @@ streamlit run 基于ollama+streamlit搭建的灵枢智聊机器人.py
 - 依赖缺失：重新执行 `pip install streamlit ollama requests langchain`
 
 ---
+
